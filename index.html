@@ -2014,36 +2014,55 @@ src="https://www.facebook.com/tr?id=1747319173225776&ev=PageView&noscript=1"
 
 
   </main>
+
+
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+/* =========================================
+   META PIXEL — WHATSAPP BUTTON TRACKING
+========================================= */
 
-  const whatsappButtons = document.querySelectorAll(
-    ".track-whatsapp-join"
-  );
+document.addEventListener("click", function (event) {
 
-  whatsappButtons.forEach(function (button) {
+  const button = event.target.closest(".track-whatsapp-join");
 
-    button.addEventListener("click", function () {
+  // Ignore non-WhatsApp clicks
+  if (!button) return;
 
-      // Check if Meta Pixel is loaded
-      if (typeof fbq === "function") {
+  // Check Meta Pixel
+  if (typeof window.fbq !== "function") {
+    console.warn("Meta Pixel fbq is not loaded.");
+    return;
+  }
 
-        fbq("trackCustom", "WhatsAppJoinClick", {
-          button_id: this.id,
-          button_location:
-            this.id === "whatsappJoinHero"
-              ? "hero"
-              : "final_cta"
-        });
+  // Identify button location
+  let buttonLocation = "unknown";
 
-      }
+  if (button.id === "whatsappJoinHero") {
+    buttonLocation = "hero";
+  }
 
-    });
+  if (button.id === "whatsappJoinFinal") {
+    buttonLocation = "final_cta";
+  }
 
+  // Fire custom Meta event
+  window.fbq("trackCustom", "WhatsAppJoinClick", {
+    button_id: button.id || "no_id",
+    button_location: buttonLocation,
+    button_text: "JOIN WHATSAPP CHANNEL"
+  });
+
+  console.log("Meta Pixel Event Fired:", {
+    event: "WhatsAppJoinClick",
+    button_id: button.id,
+    button_location: buttonLocation
   });
 
 });
 </script>
+
+
+
 </body>
 
 </html>
