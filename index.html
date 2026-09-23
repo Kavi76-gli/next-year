@@ -1,0 +1,2049 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    BattlePurse | Coming 1 January 2027
+  </title>
+
+  <meta
+    name="description"
+    content="BattlePurse is coming 1 January 2027. Join the WhatsApp Channel for launch updates, gaming rooms, tournaments and more."
+  >
+
+  <meta
+    name="theme-color"
+    content="#05070b"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1747319173225776');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1747319173225776&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  <style>
+
+    /* =========================================
+       RESET
+    ========================================= */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Inter", Arial, sans-serif;
+      background: #05070b;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+
+    /* =========================================
+       VARIABLES
+    ========================================= */
+
+    :root {
+
+      --gold: #ffc21c;
+
+      --gold-light: #ffe477;
+
+      --orange: #ff7600;
+
+      --red: #ef242d;
+
+      --whatsapp: #25d366;
+
+      --whatsapp-dark: #128c7e;
+
+      --dark: #05070b;
+
+      --dark-card: #0c1017;
+
+      --muted: #929ba8;
+
+      --border: rgba(255, 194, 28, 0.22);
+
+    }
+
+
+    /* =========================================
+       PAGE BACKGROUND
+    ========================================= */
+
+    .page {
+
+      min-height: 100vh;
+
+      position: relative;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      padding: 20px;
+
+      overflow: hidden;
+
+      background:
+
+        radial-gradient(
+          circle at 50% 25%,
+          rgba(255, 140, 0, 0.14),
+          transparent 34%
+        ),
+
+        radial-gradient(
+          circle at 90% 80%,
+          rgba(239, 36, 45, 0.11),
+          transparent 30%
+        ),
+
+        #05070b;
+
+    }
+
+
+    .page::before {
+
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      background:
+
+        linear-gradient(
+          rgba(0, 0, 0, 0.66),
+          rgba(0, 0, 0, 0.92)
+        ),
+
+        url("1000005147.png")
+        center / cover
+        no-repeat;
+
+      opacity: 0.25;
+
+      pointer-events: none;
+
+    }
+
+
+    /* =========================================
+       MAIN CONTAINER
+    ========================================= */
+
+    .container {
+
+      width: 100%;
+
+      max-width: 1150px;
+
+      position: relative;
+
+      z-index: 2;
+
+      overflow: hidden;
+
+      border-radius: 28px;
+
+      background:
+
+        linear-gradient(
+          145deg,
+          rgba(13, 17, 24, 0.98),
+          rgba(4, 7, 11, 0.99)
+        );
+
+      border:
+        1px solid rgba(255, 194, 28, 0.2);
+
+      box-shadow:
+
+        0 35px 110px
+        rgba(0, 0, 0, 0.75),
+
+        inset 0 1px 0
+        rgba(255, 255, 255, 0.05);
+
+    }
+
+
+    /* =========================================
+       HEADER
+    ========================================= */
+
+    .header {
+
+      height: 72px;
+
+      padding: 0 26px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      background:
+        rgba(0, 0, 0, 0.38);
+
+      border-bottom:
+        1px solid
+        rgba(255, 255, 255, 0.06);
+
+    }
+
+
+    .brand {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 11px;
+
+    }
+
+
+    .brand-icon {
+
+      width: 41px;
+
+      height: 41px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      border-radius: 12px;
+
+      color: #111;
+
+      font-size: 15px;
+
+      font-weight: 900;
+
+      background:
+
+        linear-gradient(
+          135deg,
+          var(--gold-light),
+          var(--orange)
+        );
+
+      box-shadow:
+
+        0 8px 25px
+        rgba(255, 150, 0, 0.22);
+
+    }
+
+
+    .brand-name {
+
+      font-size: 15px;
+
+      font-weight: 900;
+
+      letter-spacing: 1px;
+
+    }
+
+
+    .brand-sub {
+
+      margin-top: 3px;
+
+      color: #747d89;
+
+      font-size: 8px;
+
+      letter-spacing: 1px;
+
+    }
+
+
+    .launch-badge {
+
+      padding: 9px 14px;
+
+      border-radius: 50px;
+
+      color: #ffd65d;
+
+      background:
+        rgba(255, 194, 28, 0.07);
+
+      border:
+        1px solid
+        rgba(255, 194, 28, 0.25);
+
+      font-size: 10px;
+
+      font-weight: 900;
+
+      letter-spacing: 0.7px;
+
+      text-transform: uppercase;
+
+    }
+
+
+    /* =========================================
+       HERO
+    ========================================= */
+
+    .hero {
+
+      display: grid;
+
+      grid-template-columns:
+        1.05fr
+        0.95fr;
+
+      min-height: 650px;
+
+    }
+
+
+    .hero-content {
+
+      padding: 55px 48px;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+
+    }
+
+
+    .eyebrow {
+
+      width: fit-content;
+
+      padding: 9px 13px;
+
+      border-radius: 50px;
+
+      color: #ff6969;
+
+      background:
+        rgba(239, 36, 45, 0.11);
+
+      border:
+        1px solid
+        rgba(239, 36, 45, 0.28);
+
+      font-size: 10px;
+
+      font-weight: 900;
+
+      letter-spacing: 1px;
+
+      text-transform: uppercase;
+
+    }
+
+
+    .hero h1 {
+
+      margin-top: 20px;
+
+      font-size:
+        clamp(45px, 6vw, 78px);
+
+      line-height: 0.93;
+
+      letter-spacing: -3px;
+
+      font-weight: 900;
+
+      text-transform: uppercase;
+
+    }
+
+
+    .hero h1 span {
+
+      display: block;
+
+      color: var(--gold);
+
+      text-shadow:
+        0 0 35px
+        rgba(255, 180, 0, 0.2);
+
+    }
+
+
+    .hero-description {
+
+      max-width: 610px;
+
+      margin-top: 23px;
+
+      color: #c0c7d0;
+
+      font-size: 15px;
+
+      line-height: 1.7;
+
+    }
+
+
+    /* =========================================
+       LAUNCH DATE
+    ========================================= */
+
+    .launch-date {
+
+      margin-top: 28px;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 14px;
+
+    }
+
+
+    .date-icon {
+
+      width: 55px;
+
+      height: 55px;
+
+      flex-shrink: 0;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      border-radius: 15px;
+
+      color: #111;
+
+      font-size: 23px;
+
+      background:
+
+        linear-gradient(
+          135deg,
+          #ffe05a,
+          #ff7900
+        );
+
+      box-shadow:
+
+        0 12px 30px
+        rgba(255, 135, 0, 0.2);
+
+    }
+
+
+    .date-content strong {
+
+      display: block;
+
+      font-size: 23px;
+
+      font-weight: 900;
+
+    }
+
+
+    .date-content small {
+
+      display: block;
+
+      margin-top: 4px;
+
+      color: #808995;
+
+      font-size: 11px;
+
+    }
+
+
+    /* =========================================
+       GAME MODE PILLS
+    ========================================= */
+
+    .modes {
+
+      margin-top: 27px;
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 8px;
+
+    }
+
+
+    .mode {
+
+      padding: 9px 12px;
+
+      border-radius: 9px;
+
+      color: #cbd1d9;
+
+      background:
+        rgba(255, 255, 255, 0.035);
+
+      border:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+      font-size: 10px;
+
+      font-weight: 800;
+
+    }
+
+
+    .mode.highlight {
+
+      color: #ffd348;
+
+      background:
+        rgba(255, 194, 28, 0.07);
+
+      border-color:
+        rgba(255, 194, 28, 0.28);
+
+    }
+
+
+    /* =========================================
+       BUTTONS
+    ========================================= */
+
+    .buttons {
+
+      margin-top: 31px;
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+    }
+
+
+    .btn {
+
+      min-height: 52px;
+
+      padding: 14px 22px;
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      gap: 9px;
+
+      border-radius: 14px;
+
+      text-decoration: none;
+
+      font-size: 12px;
+
+      font-weight: 900;
+
+      cursor: pointer;
+
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    }
+
+
+    .whatsapp-btn {
+
+      color: #ffffff;
+
+      background:
+
+        linear-gradient(
+          135deg,
+          #25d366,
+          #128c7e
+        );
+
+      box-shadow:
+
+        0 12px 30px
+        rgba(37, 211, 102, 0.2);
+
+    }
+
+
+    .whatsapp-btn:hover {
+
+      transform:
+        translateY(-3px);
+
+      box-shadow:
+
+        0 16px 38px
+        rgba(37, 211, 102, 0.32);
+
+    }
+
+
+    .info-btn {
+
+      color: #ffffff;
+
+      background: #11161e;
+
+      border:
+        1px solid #303743;
+
+    }
+
+
+    .info-btn:hover {
+
+      transform:
+        translateY(-3px);
+
+      border-color:
+        rgba(255, 194, 28, 0.3);
+
+    }
+
+
+    /* =========================================
+       DISCLAIMER
+    ========================================= */
+
+    .disclaimer {
+
+      max-width: 600px;
+
+      margin-top: 14px;
+
+      color: #68717d;
+
+      font-size: 9px;
+
+      line-height: 1.55;
+
+    }
+
+
+    /* =========================================
+       IMAGE
+    ========================================= */
+
+    .hero-image {
+
+      min-height: 650px;
+
+      position: relative;
+
+      overflow: hidden;
+
+      background: #090c11;
+
+      border-left:
+        1px solid
+        rgba(255, 255, 255, 0.06);
+
+    }
+
+
+    .hero-image img {
+
+      position: absolute;
+
+      inset: 0;
+
+      width: 100%;
+
+      height: 100%;
+
+      object-fit: cover;
+
+      opacity: 0.8;
+
+    }
+
+
+    .hero-image::after {
+
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      background:
+
+        linear-gradient(
+          90deg,
+          #05080c 0%,
+          transparent 32%
+        ),
+
+        linear-gradient(
+          0deg,
+          rgba(5, 7, 10, 0.9),
+          transparent 55%
+        );
+
+    }
+
+
+    /* =========================================
+       FLOATING CARD
+    ========================================= */
+
+    .float-card {
+
+      position: absolute;
+
+      z-index: 3;
+
+      left: 24px;
+
+      right: 24px;
+
+      bottom: 24px;
+
+      padding: 19px;
+
+      border-radius: 18px;
+
+      background:
+        rgba(7, 10, 15, 0.86);
+
+      border:
+        1px solid
+        rgba(37, 211, 102, 0.22);
+
+      backdrop-filter:
+        blur(15px);
+
+      box-shadow:
+        0 18px 50px
+        rgba(0, 0, 0, 0.5);
+
+    }
+
+
+    .float-title {
+
+      font-size: 15px;
+
+      font-weight: 900;
+
+    }
+
+
+    .float-text {
+
+      margin-top: 7px;
+
+      color: #a6aeb9;
+
+      font-size: 11px;
+
+      line-height: 1.55;
+
+    }
+
+
+    /* =========================================
+       GAMES
+    ========================================= */
+
+    .games {
+
+      padding: 34px 28px;
+
+      border-top:
+        1px solid
+        rgba(255, 255, 255, 0.06);
+
+    }
+
+
+    .section-heading {
+
+      text-align: center;
+
+    }
+
+
+    .section-heading h2 {
+
+      font-size: 25px;
+
+      font-weight: 900;
+
+      text-transform: uppercase;
+
+    }
+
+
+    .section-heading p {
+
+      margin-top: 7px;
+
+      color: #7f8894;
+
+      font-size: 11px;
+
+    }
+
+
+    .game-grid {
+
+      margin-top: 24px;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 10px;
+
+    }
+
+
+    .game-card {
+
+      padding: 20px 12px;
+
+      text-align: center;
+
+      border-radius: 15px;
+
+      background:
+        rgba(255, 255, 255, 0.025);
+
+      border:
+        1px solid
+        rgba(255, 255, 255, 0.07);
+
+      transition:
+        transform 0.25s ease,
+        border-color 0.25s ease;
+
+    }
+
+
+    .game-card:hover {
+
+      transform:
+        translateY(-4px);
+
+      border-color:
+        rgba(255, 194, 28, 0.3);
+
+      background:
+        rgba(255, 194, 28, 0.05);
+
+    }
+
+
+    .game-icon {
+
+      font-size: 27px;
+
+      margin-bottom: 10px;
+
+    }
+
+
+    .game-name {
+
+      font-size: 11px;
+
+      font-weight: 900;
+
+    }
+
+
+    .game-info {
+
+      margin-top: 5px;
+
+      color: #737c88;
+
+      font-size: 8px;
+
+    }
+
+
+    /* =========================================
+       FREE FIRE ROOMS
+    ========================================= */
+
+    .competition {
+
+      padding: 34px 28px;
+
+      border-top:
+        1px solid
+        rgba(255, 255, 255, 0.06);
+
+      background:
+        rgba(255, 180, 0, 0.015);
+
+    }
+
+
+    .competition-grid {
+
+      margin-top: 23px;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(4, 1fr);
+
+      gap: 10px;
+
+    }
+
+
+    .competition-card {
+
+      padding: 20px;
+
+      text-align: center;
+
+      border-radius: 15px;
+
+      background:
+        rgba(12, 16, 23, 0.9);
+
+      border:
+        1px solid
+        rgba(255, 194, 28, 0.13);
+
+    }
+
+
+    .competition-card strong {
+
+      display: block;
+
+      color: var(--gold);
+
+      font-size: 24px;
+
+    }
+
+
+    .competition-card span {
+
+      display: block;
+
+      margin-top: 5px;
+
+      color: #c4cad2;
+
+      font-size: 10px;
+
+      font-weight: 800;
+
+    }
+
+
+    /* =========================================
+       WHATSAPP CTA
+    ========================================= */
+
+    .final-cta {
+
+      padding: 43px 25px;
+
+      text-align: center;
+
+      border-top:
+        1px solid
+        rgba(255, 255, 255, 0.06);
+
+      background:
+
+        radial-gradient(
+          circle at center,
+          rgba(37, 211, 102, 0.08),
+          transparent 60%
+        );
+
+    }
+
+
+    .final-cta h2 {
+
+      font-size: 29px;
+
+      font-weight: 900;
+
+      text-transform: uppercase;
+
+    }
+
+
+    .final-cta h2 span {
+
+      color: var(--gold);
+
+    }
+
+
+    .final-cta p {
+
+      max-width: 620px;
+
+      margin: 10px auto 22px;
+
+      color: #8f98a4;
+
+      font-size: 11px;
+
+      line-height: 1.65;
+
+    }
+
+
+    /* =========================================
+       FOOTER
+    ========================================= */
+
+    .footer {
+
+      padding: 17px 22px;
+
+      text-align: center;
+
+      color: #606975;
+
+      font-size: 9px;
+
+      line-height: 1.6;
+
+      border-top:
+        1px solid
+        rgba(255, 255, 255, 0.06);
+
+    }
+
+
+    /* =========================================
+       TABLET
+    ========================================= */
+
+    @media (max-width: 900px) {
+
+      .hero {
+
+        grid-template-columns: 1fr;
+
+      }
+
+
+      .hero-image {
+
+        order: -1;
+
+        min-height: 380px;
+
+        height: 380px;
+
+        border-left: none;
+
+      }
+
+
+      .game-grid {
+
+        grid-template-columns:
+          repeat(3, 1fr);
+
+      }
+
+
+      .competition-grid {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+      }
+
+    }
+
+
+    /* =========================================
+       MOBILE
+    ========================================= */
+
+    @media (max-width: 600px) {
+
+      .page {
+
+        padding: 0;
+
+        align-items: stretch;
+
+      }
+
+
+      .container {
+
+        border-radius: 0;
+
+        border-left: none;
+
+        border-right: none;
+
+      }
+
+
+      .header {
+
+        height: 64px;
+
+        padding: 0 15px;
+
+      }
+
+
+      .brand-icon {
+
+        width: 35px;
+
+        height: 35px;
+
+        font-size: 13px;
+
+      }
+
+
+      .brand-name {
+
+        font-size: 12px;
+
+      }
+
+
+      .brand-sub {
+
+        font-size: 7px;
+
+      }
+
+
+      .launch-badge {
+
+        padding: 7px 9px;
+
+        font-size: 8px;
+
+      }
+
+
+      .hero-image {
+
+        min-height: 300px;
+
+        height: 300px;
+
+      }
+
+
+      .hero-content {
+
+        padding: 38px 18px;
+
+      }
+
+
+      .hero h1 {
+
+        font-size: 41px;
+
+        letter-spacing: -2px;
+
+      }
+
+
+      .hero-description {
+
+        font-size: 13px;
+
+      }
+
+
+      .date-content strong {
+
+        font-size: 20px;
+
+      }
+
+
+      .buttons {
+
+        flex-direction: column;
+
+      }
+
+
+      .btn {
+
+        width: 100%;
+
+      }
+
+
+      .games {
+
+        padding: 29px 16px;
+
+      }
+
+
+      .game-grid {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+      }
+
+
+      .competition {
+
+        padding: 29px 16px;
+
+      }
+
+
+      .competition-grid {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+      }
+
+
+      .final-cta {
+
+        padding: 38px 18px;
+
+      }
+
+
+      .final-cta h2 {
+
+        font-size: 25px;
+
+      }
+
+
+      .float-card {
+
+        left: 14px;
+
+        right: 14px;
+
+        bottom: 14px;
+
+      }
+
+    }
+.whatsapp-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  color: #fff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #25d366 0%,
+      #1fbd5b 45%,
+      #128c7e 100%
+    );
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow:
+    0 12px 30px rgba(37, 211, 102, 0.28),
+    0 0 0 1px rgba(37, 211, 102, 0.12);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Premium shine */
+.whatsapp-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+
+  width: 75%;
+  height: 100%;
+
+  background:
+    linear-gradient(
+      100deg,
+      transparent,
+      rgba(255, 255, 255, 0.35),
+      transparent
+    );
+
+  transform: skewX(-22deg);
+
+  animation: whatsappShine 3.2s ease-in-out infinite;
+
+  pointer-events: none;
+}
+
+/* Glow pulse */
+.whatsapp-btn::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+
+  border-radius: inherit;
+
+  border: 1px solid rgba(37, 211, 102, 0.55);
+
+  animation: whatsappPulse 2.2s ease-out infinite;
+
+  pointer-events: none;
+}
+
+/* WhatsApp icon */
+.whatsapp-icon {
+  position: relative;
+  z-index: 2;
+
+  width: 30px;
+  height: 30px;
+
+  flex: 0 0 30px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.16);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    0 4px 12px rgba(0, 0, 0, 0.12);
+
+  animation: whatsappFloat 2s ease-in-out infinite;
+}
+
+.whatsapp-icon svg {
+  width: 18px;
+  height: 18px;
+
+  display: block;
+
+  fill: #ffffff;
+}
+
+.whatsapp-text {
+  position: relative;
+  z-index: 2;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+/* Hover */
+.whatsapp-btn:hover {
+  transform: translateY(-4px) scale(1.02);
+
+  box-shadow:
+    0 18px 42px rgba(37, 211, 102, 0.38),
+    0 0 25px rgba(37, 211, 102, 0.18);
+}
+
+.whatsapp-btn:hover .whatsapp-icon {
+  transform: scale(1.08);
+}
+
+/* Shine animation */
+@keyframes whatsappShine {
+  0%,
+  35% {
+    left: -120%;
+  }
+
+  65%,
+  100% {
+    left: 145%;
+  }
+}
+
+/* Pulse animation */
+@keyframes whatsappPulse {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  45% {
+    opacity: 0.8;
+    transform: scale(1.035);
+  }
+}
+
+/* Icon floating animation */
+@keyframes whatsappFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-2px) rotate(-4deg);
+  }
+}
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <main class="page">
+
+
+    <section class="container">
+
+
+      <!-- =====================================
+           HEADER
+      ====================================== -->
+
+      <header class="header">
+
+
+        <div class="brand">
+
+
+          <div class="brand-icon">
+            BP
+          </div>
+
+
+          <div>
+
+            <div class="brand-name">
+              BATTLEPURSE
+            </div>
+
+            <div class="brand-sub">
+              GAMING COMMUNITY
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="launch-badge">
+          01 JAN 2027
+        </div>
+
+
+      </header>
+
+
+
+      <!-- =====================================
+           HERO
+      ====================================== -->
+
+      <section class="hero">
+
+
+        <div class="hero-content">
+
+
+          <div class="eyebrow">
+            ⚡ THE NEXT GAMING EXPERIENCE
+          </div>
+
+
+          <h1>
+
+            BattlePurse
+
+            <span>
+              Is Coming.
+            </span>
+
+          </h1>
+
+
+          <p class="hero-description">
+
+            A new gaming platform is getting ready
+            to launch. Discover competitive rooms,
+            tournaments and gaming experiences
+            across multiple games.
+
+          </p>
+
+
+
+          <!-- LAUNCH DATE -->
+
+          <div class="launch-date">
+
+
+            <div class="date-icon">
+              📅
+            </div>
+
+
+            <div class="date-content">
+
+              <strong>
+                1 January 2027
+              </strong>
+
+              <small>
+                Mark the launch date
+              </small>
+
+            </div>
+
+
+          </div>
+
+
+
+          <!-- FREE FIRE MODES -->
+
+          <div class="modes">
+
+
+            <div class="mode highlight">
+              🔥 FREE FIRE
+            </div>
+
+
+            <div class="mode">
+              1V1
+            </div>
+
+
+            <div class="mode">
+              2V2
+            </div>
+
+
+            <div class="mode">
+              3V3
+            </div>
+
+
+            <div class="mode">
+              4V4
+            </div>
+
+
+            <div class="mode">
+              🏆 TOURNAMENTS
+            </div>
+
+
+          </div>
+
+
+
+          <!-- WHATSAPP CTA -->
+
+          <div class="buttons">
+
+
+          <a
+  href="https://whatsapp.com/channel/0029Vb9OYUx11ulVsIPnF01v"
+  id="whatsappJoinHero"
+  class="btn whatsapp-btn track-whatsapp-join"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Join BattlePurse WhatsApp Channel"
+>
+  <span class="whatsapp-icon" aria-hidden="true">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 3.2A12.8 12.8 0 0 0 5.1 22.4L3.3 28.8l6.6-1.7A12.8 12.8 0 1 0 16 3.2Zm0 23.1c-2 0-3.9-.6-5.5-1.7l-.4-.3-3.9 1 1-3.8-.3-.4A10.4 10.4 0 1 1 16 26.3Zm5.7-7.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-2.5-1.2-4.1-2.1-5.3-4.7-.4-.7.4-.7 1.1-2.2.1-.3 0-.5-.1-.7-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.1 1.4 3.3c.2.2 2.3 3.6 5.6 5 .8.3 1.5.5 2 .7.8.2 1.5.2 2 .1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/>
+    </svg>
+  </span>
+
+  <span class="whatsapp-text">
+    JOIN WHATSAPP CHANNEL
+  </span>
+</a>
+
+            <a
+              href="#games"
+              class="btn info-btn"
+            >
+
+              EXPLORE GAMES
+
+            </a>
+
+
+          </div>
+
+
+
+          <p class="disclaimer">
+
+            BattlePurse is an upcoming gaming platform.
+            Game availability, rooms, tournaments,
+            prizes, entry requirements and other
+            features may vary. Check official
+            information before participating.
+
+          </p>
+
+
+        </div>
+
+
+
+        <!-- =====================================
+             HERO IMAGE
+        ====================================== -->
+
+        <div class="hero-image">
+
+
+          <img
+            src="h.png"
+            alt="BattlePurse gaming announcement"
+          >
+
+
+          <div class="float-card">
+
+
+            <div class="float-title">
+
+              💚 FOLLOW THE BATTLEPURSE JOURNEY
+
+            </div>
+
+
+            <p class="float-text">
+
+              Join the WhatsApp Channel for
+              launch announcements, updates,
+              gaming information and upcoming
+              BattlePurse news.
+
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <!-- =====================================
+           GAMES
+      ====================================== -->
+
+      <section
+        class="games"
+        id="games"
+      >
+
+
+        <div class="section-heading">
+
+          <h2>
+            Multiple Games
+          </h2>
+
+          <p>
+            Gaming experiences planned for BattlePurse
+          </p>
+
+        </div>
+
+
+
+        <div class="game-grid">
+
+
+          <div class="game-card">
+
+            <div class="game-icon">
+              🔥
+            </div>
+
+            <div class="game-name">
+              FREE FIRE
+            </div>
+
+            <div class="game-info">
+              Rooms & tournaments
+            </div>
+
+          </div>
+
+
+          <div class="game-card">
+
+            <div class="game-icon">
+              🎲
+            </div>
+
+            <div class="game-name">
+              LUDO
+            </div>
+
+            <div class="game-info">
+              Competitive gaming
+            </div>
+
+          </div>
+
+
+          <div class="game-card">
+
+            <div class="game-icon">
+              🟤
+            </div>
+
+            <div class="game-name">
+              CARROM
+            </div>
+
+            <div class="game-info">
+              Competitive gaming
+            </div>
+
+          </div>
+
+
+          <div class="game-card">
+
+            <div class="game-icon">
+              🏏
+            </div>
+
+            <div class="game-name">
+              CRICKET
+            </div>
+
+            <div class="game-info">
+              Gaming competitions
+            </div>
+
+          </div>
+
+
+          <div class="game-card">
+
+            <div class="game-icon">
+              🎱
+            </div>
+
+            <div class="game-name">
+              8 BALL POOL
+            </div>
+
+            <div class="game-info">
+              Competitive gaming
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <!-- =====================================
+           FREE FIRE ROOMS
+      ====================================== -->
+
+      <section class="competition">
+
+
+        <div class="section-heading">
+
+          <h2>
+            Free Fire Room Formats
+          </h2>
+
+          <p>
+            Different competitive formats planned
+          </p>
+
+        </div>
+
+
+
+        <div class="competition-grid">
+
+
+          <div class="competition-card">
+
+            <strong>
+              1V1
+            </strong>
+
+            <span>
+              One vs One
+            </span>
+
+          </div>
+
+
+          <div class="competition-card">
+
+            <strong>
+              2V2
+            </strong>
+
+            <span>
+              Two vs Two
+            </span>
+
+          </div>
+
+
+          <div class="competition-card">
+
+            <strong>
+              3V3
+            </strong>
+
+            <span>
+              Three vs Three
+            </span>
+
+          </div>
+
+
+          <div class="competition-card">
+
+            <strong>
+              4V4
+            </strong>
+
+            <span>
+              Four vs Four
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <!-- =====================================
+           FINAL WHATSAPP CTA
+      ====================================== -->
+
+      <section class="final-cta">
+
+
+        <h2>
+
+          Get Ready For
+
+          <span>
+            BattlePurse
+          </span>
+
+        </h2>
+
+
+        <p>
+
+          BattlePurse is scheduled for
+          1 January 2027.
+
+          Join the WhatsApp Channel to receive
+          launch announcements, updates and
+          information about upcoming gaming
+          activities.
+
+        </p>
+
+
+        <a
+  href="https://whatsapp.com/channel/0029Vb9OYUx11ulVsIPnF01v"
+  id="whatsappJoinFinal"
+  class="btn whatsapp-btn track-whatsapp-join"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Join BattlePurse WhatsApp Channel"
+>
+  <span class="whatsapp-icon" aria-hidden="true">
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M16 3.2A12.8 12.8 0 0 0 5.1 22.4L3.3 28.8l6.6-1.7A12.8 12.8 0 1 0 16 3.2Zm0 23.1c-2 0-3.9-.6-5.5-1.7l-.4-.3-3.9 1 1-3.8-.3-.4A10.4 10.4 0 1 1 16 26.3Zm5.7-7.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-2.5-1.2-4.1-2.1-5.3-4.7-.4-.7.4-.7 1.1-2.2.1-.3 0-.5-.1-.7-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.1 1.4 3.3c.2.2 2.3 3.6 5.6 5 .8.3 1.5.5 2 .7.8.2 1.5.2 2 .1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/>
+    </svg>
+  </span>
+
+  <span class="whatsapp-text">
+    JOIN WHATSAPP CHANNEL
+  </span>
+</a>
+
+      </section>
+
+
+
+      <!-- =====================================
+           FOOTER
+      ====================================== -->
+
+      <footer class="footer">
+
+        BattlePurse is an upcoming gaming platform.
+        This landing page is intended for community
+        and launch information.
+
+        Game availability, tournament formats,
+        prizes, entry requirements and other
+        features are subject to official terms,
+        availability and applicable rules.
+
+      </footer>
+
+
+    </section>
+
+
+  </main>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const whatsappButtons = document.querySelectorAll(
+    ".track-whatsapp-join"
+  );
+
+  whatsappButtons.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+      // Check if Meta Pixel is loaded
+      if (typeof fbq === "function") {
+
+        fbq("trackCustom", "WhatsAppJoinClick", {
+          button_id: this.id,
+          button_location:
+            this.id === "whatsappJoinHero"
+              ? "hero"
+              : "final_cta"
+        });
+
+      }
+
+    });
+
+  });
+
+});
+</script>
+</body>
+
+</html>
